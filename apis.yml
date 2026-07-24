@@ -1,8 +1,27 @@
 aid: brain
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brain.png
 name: Brain
-description: 'Brain is a company surfaced as a portfolio company of homebrew and added to the API Evangelist
-  network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Brain Co. builds agent-native operating systems for institutions across
+  the public and private sectors. Its Atlas platform powers GovOS — permitting, licensing,
+  claims, and casework for government agencies at national scale — and InsuranceOS
+  for underwriting, claims, authorization, and insurance operations, with an emphasis
+  on sovereign-grade security and vendor neutrality. Founded in 2025 and based in San
+  Francisco, the company was cofounded by Elad Gil, Jared Kushner, and Luis Videgaray,
+  with a team drawn from Google, DeepMind, NVIDIA, Palantir, and Tesla. Brain Co. does
+  not currently publish a public API, developer portal, SDKs, or OpenAPI definitions;
+  this profile tracks its public web surface (news, trust center, privacy and terms)
+  pending any future developer program.'
 url: https://raw.githubusercontent.com/api-evangelist/brain/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Government
+- Insurance
+- Enterprise Software
+- Automation
 - Healthcare
 apis: []
 maintainers:
@@ -23,5 +48,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/brain-domain-security.yml
 - type: Website
   url: https://brain.co
+- type: Blog
+  url: https://brain.co/news
+- type: PrivacyPolicy
+  url: https://brain.co/privacy-policy
+- type: TermsOfService
+  url: https://brain.co/terms
+- type: Support
+  url: https://brain.co/contact
+- type: TrustCenter
+  url: https://trust.brain.co
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
