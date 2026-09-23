@@ -1,0 +1,27 @@
+# Front Door AI Index — brain — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: brain
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: brain.co
+  final_host: brain.co
+  ownership: own
+  owner: brain
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 2
+  host_score: 2
+  density: 5.56
+  words: 360
+  tiers:
+    agentic: 2
+    core: 0
+    model: 0
+  ambiguous: 6
+  top_terms:
+    agent: 6
+    MCP: 1
+    inference: 1
